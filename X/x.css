@@ -1,0 +1,177 @@
+.con-main{
+    display: flex;
+    gap: 5px;
+}
+.con-left{
+width: 50%;
+height: 50%;
+padding: 5% 0px 0px 0px ;
+}
+.con-right{
+    width: 50%;
+    height: 50%;
+    margin: 3% 10% 0px 0px;
+}
+
+h2{
+    font-size: 60px;
+    margin-top: 0px;
+}
+h3{
+   font-size:30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.but-acc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 5%;
+    width: 70%;
+    height: 70%;
+ 
+}
+#but-acc{
+    background-color: lightblue;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding: 5px;
+}
+#but-acc1{
+    margin-top: 1%;
+    padding: 5px;
+}
+.line{
+    display: flex;
+    margin-top: 3%;
+}
+.line-bo{
+   border-top: 2px solid black; 
+   width: 30%; 
+   align-self:center;
+   margin: 2%;
+}
+.ps{
+    font-size:24px;
+    
+}
+.con-signup{
+    display: grid;
+    margin-top: 2%;
+    padding: 5px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 3%;
+    bottom: 0px;
+    margin-top: 50px ;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+#link-t{
+    color: blue !important;
+}
+/* ddialog step1*/
+dialog{
+    border-color: white;
+    border-radius: 20px;
+}
+#dialog-step{
+    display: flex;
+    border-radius:10px;
+    width: 600px;
+    height: 600px;
+}
+.dialog-f{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    width: 100%;
+
+}
+.close{
+    height: 40px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    box-shadow: red;
+}
+.name:hover{
+    border-color: rgb(103, 103, 255);
+}
+#dialog-step label{
+    padding-left: 5px;
+}
+#dialog-step input{
+    border: none;
+    outline: none;
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.dialog-next{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 30%;
+    height: 4%;
+    text-align: center;
+    padding-top: 4px;
+    margin-top: 3%;
+    background-color:lightblue;
+}
+/* step2*/
+#dialog-step1{
+    display: flex;
+    border-radius:10px;
+    width: 600px;
+    height: 600px;
+}
+#dialog-step1 input{
+width: 30px;
+height: 30px;
+}
+.but-back{
+    height: 40px;
+}
+.dialog-f2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top:-20px ;
+}
+.con-che{
+    display: flex;
+    justify-content: space-between;
+}
+.con-che label{
+    width: 50%;
+    height: 50%;
+}
+.con-che input{
+    width: 50%;
+    height: 50%;
+}
+
+
